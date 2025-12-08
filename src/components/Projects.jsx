@@ -2,49 +2,49 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
-    imgSrc: '/images/project-1.png',
+    imgSrc: 'images/project-1.png',
     title: 'Cloud Borneo Website',
     tags: ['WordPress', 'Divi', 'ACPT'],
     projectLink: 'https://cloudborneo.com',
   },
   {
-    imgSrc: '/images/project-3.png',
+    imgSrc: 'images/project-3.png',
     title: 'IKN Sentiment Analysis System',
     tags: ['Laravel 12', 'Naive Bayes', 'Machine Learning'],
     projectLink: 'https://github.com/fauzanryz/ikn-app',
   },
   {
-    imgSrc: '/images/project-4.png',
+    imgSrc: 'images/project-4.png',
     title: 'Rautama Housing Catalog Website',
     tags: ['Laravel', 'Bootstrap', 'MySQL'],
     projectLink: 'https://github.com/fauzanryz/rautama',
   },
   {
-    imgSrc: '/images/project-5.png',
+    imgSrc: 'images/project-5.png',
     title: 'Middleman Transaction Platform',
     tags: ['Laravel', 'Bootstrap', 'MySQL'],
     projectLink: 'https://github.com/fauzanryz/middleman',
   },
   {
-    imgSrc: '/images/project-2.png',
+    imgSrc: 'images/project-2.png',
     title: 'Library Information System',
     tags: ['CodeIgniter 4', 'Bootstrap', 'Web-based'],
     projectLink: 'https://github.com/fauzanryz/perpus-politala',
   },
   {
-    imgSrc: '/images/project-6.png',
+    imgSrc: 'images/project-6.png',
     title: 'Personal Expense Tracking App',
     tags: ['Ionic 5', 'TypeScript', 'Angular', 'SQLite'],
     projectLink: 'https://github.com/fauzanryz/IonicPengeluaran',
   },
   {
-    imgSrc: '/images/project-8.png',
+    imgSrc: 'images/project-8.png',
     title: 'Online Student Admission System',
     tags: ['CodeIgniter 4', 'Bootstrap', 'MySQL'],
     projectLink: 'https://github.com/fauzanryz/project-ppdb-online',
   },
   {
-    imgSrc: '/images/project-7.png',
+    imgSrc: 'images/project-7.png',
     title: 'Vocational School Profile Website',
     tags: ['PHP', 'Bootstrap', 'MySQL'],
     projectLink: 'https://github.com/fauzanryz/smkmuhplh',
