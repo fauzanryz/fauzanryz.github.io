@@ -16,7 +16,7 @@ function About() {
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <div className="grid md:grid-cols-[2fr_1fr] gap-10 mb-10">
             <div>
-              <p className="text-zinc-300 md:text-lg leading-relaxed text-left reveal-up mb-7">
+              <p className="text-zinc-300 md:text-lg leading-relaxed text-left reveal-up mb-5">
                 Hi! I&apos;m <span className="font-bold text-zinc-100">Fauzan</span>, born in Tanah Laut, South Kalimantan. I am a Web Developer and Freelance Photographer, focusing on building modern, fast, and high-performance websites.
               </p>
               <p className="text-zinc-300 md:text-lg leading-relaxed text-left reveal-up">
