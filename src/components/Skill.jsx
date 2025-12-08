@@ -2,31 +2,31 @@ import { useState } from 'react';
 import SkillCard from './SkillCard';
 
 const skillItem = [
-  { imgSrc: 'images/html.svg', label: 'HTML', desc: 'Structure' },
-  { imgSrc: 'images/css3.svg', label: 'CSS', desc: 'Styling' },
-  { imgSrc: 'images/javascript.svg', label: 'JavaScript', desc: 'Interaction' },
-  { imgSrc: 'images/typescript.svg', label: 'TypeScript', desc: 'Language' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/html.svg', label: 'HTML', desc: 'Structure' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/css3.svg', label: 'CSS', desc: 'Styling' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/javascript.svg', label: 'JavaScript', desc: 'Interaction' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/typescript.svg', label: 'TypeScript', desc: 'Language' },
 
-  { imgSrc: 'images/bootstrap.svg', label: 'Bootstrap', desc: 'UI Framework' },
-  { imgSrc: 'images/tailwindcss.svg', label: 'Tailwind CSS', desc: 'UI Framework' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/bootstrap.svg', label: 'Bootstrap', desc: 'UI Framework' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/tailwindcss.svg', label: 'Tailwind CSS', desc: 'UI Framework' },
 
-  { imgSrc: 'images/react.svg', label: 'React', desc: 'Frontend Framework' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/react.svg', label: 'React', desc: 'Frontend Framework' },
 
-  { imgSrc: 'images/php.svg', label: 'PHP', desc: 'Backend' },
-  { imgSrc: 'images/codeigniter.svg', label: 'CodeIgniter', desc: 'Backend Framework' },
-  { imgSrc: 'images/laravel.svg', label: 'Laravel', desc: 'Backend Framework' },
-  { imgSrc: 'images/aspnet.svg', label: 'ASP.NET', desc: 'Backend Framework' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/php.svg', label: 'PHP', desc: 'Backend' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/codeigniter.svg', label: 'CodeIgniter', desc: 'Backend Framework' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/laravel.svg', label: 'Laravel', desc: 'Backend Framework' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/aspnet.svg', label: 'ASP.NET', desc: 'Backend Framework' },
 
-  { imgSrc: 'images/nodejs.svg', label: 'NodeJS', desc: 'Backend JavaScript' },
-  { imgSrc: 'images/mysql.svg', label: 'MySQL', desc: 'Database' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/nodejs.svg', label: 'NodeJS', desc: 'Backend JavaScript' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/mysql.svg', label: 'MySQL', desc: 'Database' },
 
-  { imgSrc: 'images/ionic.svg', label: 'Ionic', desc: 'Mobile Framework' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/ionic.svg', label: 'Ionic', desc: 'Mobile Framework' },
 
-  { imgSrc: 'images/python.svg', label: 'Python', desc: 'Programming' },
-  { imgSrc: 'images/wordpress.svg', label: 'WordPress', desc: 'CMS' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/python.svg', label: 'Python', desc: 'Programming' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/wordpress.svg', label: 'WordPress', desc: 'CMS' },
 
-  { imgSrc: 'images/git.svg', label: 'Git', desc: 'Version Control' },
-  { imgSrc: 'images/figma.svg', label: 'Figma', desc: 'UI/UX Design' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/git.svg', label: 'Git', desc: 'Version Control' },
+  { imgSrc: import.meta.env.BASE_URL + 'images/figma.svg', label: 'Figma', desc: 'UI/UX Design' },
 ];
 
 function Skill() {
