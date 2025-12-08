@@ -55,7 +55,7 @@ function Projects() {
   return (
     <section id="projects" className="section">
       <div className="container">
-        <h2 className="headline-2 mb-8 reveal-up">Portfolio Highlights</h2>
+        <h2 className="headline-2 mb-8 reveal-up teks-left">Portfolio Highlights</h2>
 
         <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fit,minmax(280px,1fr))]">
           {projects.map(({ imgSrc, title, tags, projectLink }, key) => (
