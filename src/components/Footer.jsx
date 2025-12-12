@@ -30,7 +30,7 @@ const socials = [
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/fauzan-0436bb2a0',
+    href: 'https://www.linkedin.com/in/fauzanryz/',
   },
   {
     label: 'Twitter X',
@@ -40,7 +40,6 @@ const socials = [
     label: 'Instagram',
     href: 'https://www.instagram.com/fauzanryz',
   },
-
 ];
 
 function Footer() {
@@ -84,7 +83,9 @@ function Footer() {
         </div>
 
         <div className="flex items-center pt-10 mb-8">
-          <p className="text-zinc-500 text-sm reveal-up">© 2025 <span className="text-zinc-200">Fauzan</span>  All Rights Reserved.</p>
+          <p className="text-zinc-500 text-sm reveal-up">
+            © 2025 <span className="text-zinc-200">Fauzan</span> All Rights Reserved.
+          </p>
         </div>
       </div>
     </footer>

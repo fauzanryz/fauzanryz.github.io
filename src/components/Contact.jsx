@@ -12,7 +12,7 @@ const socialLinks = [
     alt: 'GitHub',
   },
   {
-    href: 'https://www.linkedin.com/in/fauzan-0436bb2a0',
+    href: 'https://www.linkedin.com/in/fauzanryz/',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
