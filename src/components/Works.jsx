@@ -14,7 +14,7 @@ const workExperiences = [
     points: ['WordPress Development', 'Divi Builder', 'ACPT Customization', 'Website Maintenance'],
   },
   {
-    company: 'Teaching Factory - Tanah Laut State Polytechnic',
+    company: 'Teaching Factory',
     period: 'Feb 2024 - Jul 2024',
     position: 'Website Developer',
     description: 'Developed educational websites supporting academic and operational activities.',

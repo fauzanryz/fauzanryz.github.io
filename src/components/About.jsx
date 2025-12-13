@@ -17,7 +17,7 @@ function About() {
           <div className="grid md:grid-cols-[2fr_1fr] gap-10 mb-10">
             <div>
               <p className="text-zinc-300 md:text-lg leading-relaxed text-left reveal-up mb-5">
-                Hi! I&apos;m <span className="font-bold text-zinc-100">Fauzan</span>, born in Tanah Laut, South Kalimantan. I am a Web Developer and Freelance Photographer, focusing on building modern, fast, and high-performance websites.
+                Hi! I&apos;m <span className="font-bold text-zinc-100">Fauzan</span>, born in Tanah Laut, Kalimantan Selatan. I am a Web Developer and Freelance Photographer, focusing on building modern, fast, and high-performance websites.
               </p>
               <p className="text-zinc-300 md:text-lg leading-relaxed text-left reveal-up">
                 I also offer photo and video production services, blending creativity and technology to produce impactful visual work.
@@ -32,7 +32,7 @@ function About() {
                 <span className="font-bold text-zinc-100">Residence:</span> Indonesia
               </p>
               <p>
-                <span className="font-bold text-zinc-100">Address:</span> Banjarmasin, South Kalimantan
+                <span className="font-bold text-zinc-100">Address:</span> Banjarmasin, Kalimantan Selatan
               </p>
               <p>
                 <span className="font-bold text-zinc-100">E-mail:</span> fauzanes22@gmail.com

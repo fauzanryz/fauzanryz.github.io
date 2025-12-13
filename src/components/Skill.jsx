@@ -36,8 +36,8 @@ function Skill() {
 
         <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] text-left reveal-up">The core technologies and tools I use to build high-quality, modern, and high-performance digital products.</p>
 
-        {/* Mobile: 2 columns grid */}
-        <div className="grid grid-cols-2 md:grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-3 text-left">
+        {/* Mobile: icon grid, Desktop: full card */}
+        <div className="grid grid-cols-4 md:grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-3 text-left">
           {skillItem.map(({ imgSrc, label, desc }, key) => (
             <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} classes="reveal-up" />
           ))}
