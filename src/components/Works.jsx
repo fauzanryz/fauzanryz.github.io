@@ -4,7 +4,7 @@ const workExperiences = [
     period: 'Oct 2022 - Present',
     position: 'Photographer',
     description: 'Producing promotional and event photography content for various clients.',
-    points: ['Event Photography', 'Promotional Content', 'Wedding & Graduation Projects', 'Videography'],
+    points: ['Event Photography', 'Promotional Content', 'Wedding & Events', 'Videography'],
   },
   {
     company: 'Cloud Borneo',
@@ -38,16 +38,16 @@ function Works() {
                 {/* Timeline dot */}
                 <div className="absolute left-0 top-2 w-2 h-2 bg-sky-400 rounded-full -translate-x-[3.5px]"></div>
 
-                <div className="bg-zinc-800/50 rounded-2xl p-5 ring-1 ring-inset ring-zinc-50/5 hover:bg-zinc-800 transition-colors">
-                  <div className="flex items-start justify-between gap-3 mb-2">
+                <div className="bg-zinc-800/50 rounded-2xl p-5 ring-inset ring-zinc-50/10 hover:bg-zinc-800 transition-colors duration-300">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 sm:gap-3 mb-2">
                     <h3 className="text-lg font-semibold text-zinc-50 text-left">{work.company}</h3>
-                    <p className="text-zinc-400 text-sm text-right shrink-0">{work.period}</p>
+                    <p className="text-zinc-400 text-xs sm:text-sm text-left sm:text-right shrink-0">{work.period}</p>
                   </div>
 
                   <p className="text-sky-400 font-medium text-left mb-2">{work.position}</p>
                   <p className="text-zinc-400 text-sm text-left mb-3">{work.description}</p>
 
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-2 text-left">
                     {work.points.map((point, idx) => (
                       <span key={idx} className="text-xs px-3 py-1 bg-zinc-700/50 text-zinc-300 rounded-md">
                         {point}

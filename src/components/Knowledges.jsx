@@ -21,11 +21,11 @@ function Knowledges() {
           {knowledgeItems.map(({ title, icon }, key) => (
             <div
               key={key}
-              className="group px-3 py-2 md:px-4 md:py-2.5 rounded-full bg-gradient-to-r from-zinc-800/80 to-zinc-800/40 ring-2 ring-inset ring-zinc-50/10 text-zinc-300 hover:ring-sky-400/50 hover:text-sky-400 hover:scale-105 transition-all duration-300 reveal-up"
+              className="reveal-up group px-3 py-2 md:px-4 md:py-2.5 rounded-full bg-gradient-to-r from-zinc-800/80 to-zinc-800/40 ring-2 ring-inset ring-zinc-50/10 text-zinc-300 hover:ring-sky-400/50 hover:text-sky-400 hover:scale-105 transition-all duration-300"
             >
-              <div className="flex items-center gap-1.5 md:gap-2 justify-start">
-                <span className="material-symbols-rounded text-base md:text-lg group-hover:rotate-12 transition-transform duration-300">{icon}</span>
-                <span className="font-medium text-xs md:text-sm whitespace-nowrap">{title}</span>
+              <div className="flex items-center gap-1.5 md:gap-2 justify-center md:justify-start">
+                <span className="material-symbols-rounded text-base md:text-lg group-hover:rotate-12 transition-transform duration-300 hidden md:inline">{icon}</span>
+                <span className="font-medium text-[10px] md:text-sm truncate">{title}</span>
               </div>
             </div>
           ))}

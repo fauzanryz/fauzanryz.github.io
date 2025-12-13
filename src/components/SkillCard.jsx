@@ -8,9 +8,9 @@ function SkillCard({ imgSrc, label, desc, classes }) {
       </figure>
 
       <div className="flex-1 min-w-0">
-        <h3 className="text-left text-sm md:text-base truncate">{label}</h3>
+        <h3 className="text-left text-[11px] md:text-base truncate">{label}</h3>
 
-        <p className="text-zinc-400 text-xs md:text-sm text-left">{desc}</p>
+        <p className="text-zinc-400 text-[10px] md:text-sm text-left truncate">{desc}</p>
       </div>
     </div>
   );
