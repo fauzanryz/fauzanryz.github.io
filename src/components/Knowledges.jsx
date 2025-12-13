@@ -1,10 +1,10 @@
 const knowledgeItems = [
   { title: 'Full Stack Dev', icon: 'code' },
-  { title: 'Database Design', icon: 'database' },
+  { title: 'Database', icon: 'database' },
   { title: 'System Analysis', icon: 'monitoring' },
   { title: 'UI/UX Design', icon: 'palette' },
   { title: 'Video Editing', icon: 'movie' },
-  { title: 'Digital Marketing', icon: 'campaign' },
+  { title: 'Marketing', icon: 'campaign' },
   { title: 'Social Media', icon: 'share' },
   { title: 'Management', icon: 'business_center' },
   { title: 'Communication', icon: 'forum' },
@@ -27,7 +27,7 @@ function Knowledges() {
             >
               <div className="flex items-center gap-1.5 md:gap-2 justify-start">
                 <span className="material-symbols-rounded text-base md:text-lg !hidden md:!inline">{icon}</span>
-                <span className="font-medium text-[10px] md:text-sm truncate">{title}</span>
+                <span className="font-medium text-xs md:text-sm truncate">{title}</span>
               </div>
             </div>
           ))}
