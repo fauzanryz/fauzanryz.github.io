@@ -1,7 +1,7 @@
 const workExperiences = [
   {
     company: 'PT Barito Berlian Motor',
-    period: '2026 - Present',
+    period: 'Feb 2026 - Present',
     position: 'IT Programmer',
     description: 'Developing and maintaining internal systems to support dealership sales, service, and operational activities.',
     points: ['Application Development', 'System Maintenance', 'Database Management', 'IT Support'],
