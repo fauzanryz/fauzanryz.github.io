@@ -11,7 +11,6 @@ import Header from './components/Header.jsx';
 import Hero from './components/Hero.jsx';
 import About from './components/About.jsx';
 import Works from './components/Works.jsx';
-import Education from './components/Education.jsx';
 import Services from './components/Services';
 import Skill from './components/Skill.jsx';
 import Knowledges from './components/Knowledges.jsx';
@@ -48,7 +47,6 @@ function App() {
         <Hero />
         <About />
         <Works />
-        <Education />
         <Knowledges />
         <Services />
         <Skill />

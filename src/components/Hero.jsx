@@ -20,10 +20,10 @@ function Hero() {
 
           <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch lg:max-w-[15ch] mt-5 mb-8 lg:mb-10 text-left">I Build Fast, Modern & Reliable Web Applications</h2>
 
-          <div className="flex items-center gap-3">
-            <ButtonPrimary href={import.meta.env.BASE_URL + "documents/fauzan-resume.pdf"} label="Download CV" icon="download" target="_blank" classes="download-btn" download="fauzan-resume.pdf" />
+          <div className="flex items-center gap-2 sm:gap-3">
+            <ButtonPrimary href={import.meta.env.BASE_URL + "documents/fauzan-resume.pdf"} label="Download CV" icon="download" target="_blank" classes="download-btn !h-10 sm:!h-11 !px-3 sm:!px-4 !text-xs sm:!text-sm !gap-1.5 sm:!gap-2 !pr-2.5 sm:!pr-3" download="fauzan-resume.pdf" />
 
-            <ButtonOutline href="#about" label="Scroll Down" icon="arrow_downward" />
+            <ButtonOutline href="#about" label="Scroll Down" icon="arrow_downward" classes="!h-10 sm:!h-11 !px-3 sm:!px-4 !text-xs sm:!text-sm !gap-1.5 sm:!gap-2 !pr-2.5 sm:!pr-3" />
           </div>
         </div>
 

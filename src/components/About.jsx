@@ -26,7 +26,7 @@ function About() {
 
             <div className="space-y-2 text-zinc-300 text-sm md:text-base text-left md:pr-2 reveal-up">
               <p>
-                <span className="font-bold text-zinc-100">Age:</span> 21
+                <span className="font-bold text-zinc-100">Age:</span> 22
               </p>
               <p>
                 <span className="font-bold text-zinc-100">Residence:</span> Indonesia
