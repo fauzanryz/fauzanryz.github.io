@@ -55,11 +55,13 @@ function Projects() {
   return (
     <section id="projects" className="section">
       <div className="container">
-        <h2 className="headline-2 mb-8 reveal-up text-left">Portfolio Highlights</h2>
+        <h2 className="headline-2 text-[25px] lg:text-4xl mb-8 reveal-up text-left">Projects</h2>
 
-        <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fit,minmax(280px,1fr))]">
+        <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:grid lg:grid-cols-[repeat(auto-fit,minmax(280px,1fr))] lg:gap-x-4 lg:gap-y-5 lg:overflow-visible">
           {projects.map(({ imgSrc, title, tags, projectLink }, key) => (
-            <ProjectCard key={key} imgSrc={imgSrc} title={title} tags={tags} projectLink={projectLink} classes="reveal-up" />
+            <div key={key} className="w-[80%] md:w-[55%] shrink-0 snap-center lg:w-auto">
+              <ProjectCard imgSrc={imgSrc} title={title} tags={tags} projectLink={projectLink} classes="reveal-up" />
+            </div>
           ))}
         </div>
       </div>

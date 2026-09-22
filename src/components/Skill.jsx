@@ -32,12 +32,12 @@ function Skill() {
   return (
     <section className="section">
       <div className="container">
-        <h2 className="headline-2 reveal-up text-left">Tools & Technologies</h2>
+        <h2 className="headline-2 text-[25px] lg:text-4xl reveal-up text-left">Tools & Technologies</h2>
 
-        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] text-left reveal-up">The core technologies and tools I use to build high-quality, modern, and high-performance digital products.</p>
+        <p className="text-zinc-400 text-xs md:text-sm mt-3 mb-8 max-w-[50ch] text-left reveal-up">The core technologies and tools I use to build high-quality, modern, and high-performance digital products.</p>
 
         {/* Mobile: icon grid, Desktop: full card */}
-        <div className="grid grid-cols-4 md:grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-3 text-left">
+        <div className="grid grid-cols-6 gap-2 md:grid-cols-3 md:gap-3 lg:grid-cols-[repeat(auto-fill,minmax(250px,1fr))] lg:gap-3 text-left">
           {skillItem.map(({ imgSrc, label, desc }, key) => (
             <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} classes="reveal-up" />
           ))}

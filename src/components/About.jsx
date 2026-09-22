@@ -1,3 +1,5 @@
+import { ButtonPrimary } from './Button.jsx';
+
 const aboutItems = [
   {
     label: 'Projects done',
@@ -11,20 +13,20 @@ const aboutItems = [
 
 function About() {
   return (
-    <section id="about" className="section">
+    <section id="about" className="section pt-5 lg:pt-32">
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
-          <div className="grid md:grid-cols-[2fr_1fr] gap-10 mb-10">
+          <div className="grid md:grid-cols-2 lg:grid-cols-[2fr_1fr] gap-6 md:gap-10 mb-6 md:mb-10">
             <div>
-              <p className="text-zinc-300 md:text-lg leading-relaxed text-left reveal-up mb-5">
+              <p className="text-xs md:text-base lg:text-lg text-zinc-300 leading-relaxed text-left reveal-up mb-5">
                 Hi! I&apos;m <span className="font-bold text-zinc-100">Fauzan</span>, born in Tanah Laut, Kalimantan Selatan. I am a Web Developer and Freelance Photographer, focusing on building modern, fast, and high-performance websites.
               </p>
-              <p className="text-zinc-300 md:text-lg leading-relaxed text-left reveal-up">
+              <p className="text-xs md:text-base lg:text-lg text-zinc-300 leading-relaxed text-left reveal-up">
                 I also offer photo and video production services, blending creativity and technology to produce impactful visual work.
               </p>
             </div>
 
-            <div className="space-y-2 text-zinc-300 text-sm md:text-base text-left md:pr-2 reveal-up">
+            <div className="space-y-2 text-zinc-300 text-xs md:text-base lg:text-lg text-left md:pr-2 reveal-up">
               <p>
                 <span className="font-bold text-zinc-100">Age:</span> 22
               </p>
@@ -47,12 +49,16 @@ function About() {
             {aboutItems.map(({ label, number }, key) => (
               <div key={key}>
                 <div className="flex items-center md:mb-1">
-                  <span className="text-2xl font-semibold md:text-4xl">{number}</span>
-                  <span className="text-sky-400 font-semibold md:text-3xl">+</span>
+                  <span className="text-sm font-semibold md:text-4xl">{number}</span>
+                  <span className="text-sm font-semibold md:text-3xl text-sky-400">+</span>
                 </div>
-                <p className="text-sm text-zinc-400">{label}</p>
+                <p className="text-xs md:text-sm text-zinc-400">{label}</p>
               </div>
             ))}
+          </div>
+
+          <div className="md:hidden mt-8 reveal-up">
+            <ButtonPrimary href={import.meta.env.BASE_URL + "documents/fauzan-resume.pdf"} label="Download CV" icon="download" target="_blank" classes="download-btn !h-9 !px-3 !text-xs !gap-1.5 !pr-2.5" download="fauzan-resume.pdf" />
           </div>
         </div>
       </div>
